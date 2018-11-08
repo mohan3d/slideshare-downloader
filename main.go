@@ -5,6 +5,7 @@ import (
 	"log"
 	"net/http"
 	"os"
+	"path/filepath"
 
 	"github.com/gin-gonic/gin"
 	_ "github.com/heroku/x/hmetrics/onload"
@@ -12,11 +13,20 @@ import (
 )
 
 func fileName(url string) string {
-
+	return filepath.Base(url) + ".pdf"
 }
 
 func quality(q string) slideshare.Quality {
+	// high is the default quality
+	v := slideshare.QualityFull
 
+	switch q {
+	case "normal":
+		v = slideshare.QualityNormal
+	case "low":
+		v = slideshare.QualitySmall
+	}
+	return v
 }
 
 func fetchHandler(c *gin.Context) {
