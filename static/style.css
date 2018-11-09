@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #ffffff;
+  font-family: sans-serif;
+  margin: 0px;
+  padding: 8px;
+  color: #000000;
+}
+
+header {
+  text-align: center;
+  font-size: 20px;
+  letter-spacing: 10px;
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+
+select {
+  vertical-align: middle;
+  margin: 0 2% 0 2%;
+}
+
+a:link,
+a:visited {
+  text-decoration: none;
+}
+
+.ribbon {
+  position: absolute;
+  top: 0;
+  right: 0;
+  border: 0;
+}
+
+.form {
+  margin-top: 10px;
+  width: 100%;
+}
+
+.input {
+  display: flex;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.note {
+  font-size: 10px;
+  margin-top: 20px;
+  letter-spacing: 3px;
+  color: #7f7f7f;
+  text-align: center;
+}
+
+.url {
+  width: 375px;
+  border: 1px dashed black;
+  padding: 3px;
+  margin-left: 3px;
+  margin-right: 10px;
+  font-family: arial, helvetica, sans-serif;
+  font-weight: normal;
+  color: #959595;
+  font-size: 14px;
+}
+
+.btn {
+  width: 50px;
+  vertical-align: middle;
+}
