@@ -1,12 +1,13 @@
 {
-  "name": "Start on Heroku: Go",
-  "description": "Go Getting Started Example App",
+  "name": "slideshare-downloader",
+  "description": "easy to use slideshare downloader",
   "keywords": [
-    "getting-started",
+    "slideshare",
+    "slideshare-downloader",
     "go",
-    "sample",
-    "example"
+    "gin",
+    "slideshare-go"
   ],
-  "website": "http://github.com/heroku/go-getting-started",
-  "repository": "http://github.com/heroku/go-getting-started"
+  "website": "https://github.com/mohan3d/slideshare-downloader",
+  "repository": "https://github.com/mohan3d/slideshare-downloader"
 }
